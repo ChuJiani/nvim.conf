@@ -37,7 +37,7 @@ require("lualine").setup({
 	sections = {
 		lualine_a = { "mode" },
 		lualine_b = { "branch", "diff", "diagnostics" },
-		lualine_c = { { lsp_name, icon = " LSP:", color = { fg = "#9933ff", gui = "bold" } } },
+		lualine_c = { { lsp_name, icon = " LSP:", color = { fg = "#009999", gui = "bold" } } },
 		lualine_x = { "encoding", "fileformat", "filetype" },
 		lualine_y = { "progress" },
 		lualine_z = { "location" },

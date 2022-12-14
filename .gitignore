@@ -1,5 +1,5 @@
-plugin
-
 .DS_Store
-snippets/go.json
-snippets/python.json
+snippets/
+backup/
+site/
+plugin/

@@ -16,8 +16,6 @@ return require("packer").startup(function()
 	-- 		require("nova").load()
 	-- 	end,
 	-- })
-	use("rmehri01/onenord.nvim")
-
 	use({
 		"navarasu/onedark.nvim",
 	})

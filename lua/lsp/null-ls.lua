@@ -1,5 +1,5 @@
 local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
--- 每次自动选择null-ls作为formatter auto choose null-ls as formatter
+-- auto choose null-ls as formatter
 local lsp_formatting = function(bufnr)
 	vim.lsp.buf.format({
 		filter = function(client)
